@@ -34,6 +34,7 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
+// new task
 task greetingTask() {
     doLast {
         String nama = project.hasProperty('nama') ? project.property('nama') : 'Gradle User'
